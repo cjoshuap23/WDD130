@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: grey;
+}
+.banner {
+    width: 100%;
+}
+#icons {
+    text-align: center;
+    background-color: grey;
+    padding: 60px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.desk, .graphic, .person {
+    width: 20%;
+    border-radius: 50%;
+    border: 16px solid #555;
+} 

@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
+  --heading-font: "Rock Salt", Helvetica, arial;
   --paragraph-font: "Open Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -32,7 +32,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
 }
 img {
@@ -100,6 +100,7 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 nav  {
   list-style-type: none;
@@ -121,6 +122,7 @@ nav a:hover {
 .sitemap {
   display: grid;
   justify-content: center;
+  font-family: "Open Sans", Helvetica, sans-serif;
 
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
