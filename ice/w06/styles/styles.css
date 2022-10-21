@@ -1,0 +1,29 @@
+#graphic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cherry_img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: auto;
+}
+h1 {
+    font-size: 250px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-kerning: 20%;
+}
+p {
+    color: brown;
+    font-size: 100px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    kerning: 50%;
+}
