@@ -192,6 +192,19 @@ footer .social img {
 .dry-oar-footer {
     color: #184769;
 }
+#faq-title {
+    text-align: center;
+    color: #184769;
+    font-family: "Rock Salt", Helvetica, arial;
+    font-size: 1.7em;
+}
+#faq-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
